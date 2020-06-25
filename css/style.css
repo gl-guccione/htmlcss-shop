@@ -4,8 +4,31 @@
   padding: 0;
 }
 
+main {
+  margin: 25px 25px
+}
+
 section > article {
+  position: relative;
+  display: inline-block;
   width: 300px;
   height: 372px;
-  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prod1 {
+  background-image: url(../img/product_1.jpg);
+}
+
+.prod2 {
+  background-image: url(../img/product_2.jpg);
+}
+
+.prod3 {
+  background-image: url(../img/product_2.jpg);
+}
+
+article > span {
+  position: absolute;
 }
