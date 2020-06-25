@@ -5,7 +5,7 @@
 }
 
 main {
-  margin: 25px 25px
+  margin: 15px 15px
 }
 
 section > article {
@@ -46,9 +46,11 @@ article > span {
 }
 
 article > span:first-child {
+  border-radius: 8px;
   background-color: green;
+  color: white;
   margin: 8px;
-  padding: 5px;
+  padding: 5px 8px;
   right: 0;
 }
 
