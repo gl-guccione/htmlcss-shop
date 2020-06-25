@@ -29,6 +29,18 @@ section > article {
   background-image: url(../img/product_3.jpg);
 }
 
+.prod4 {
+  background-image: url(../img/product_4.jpg);
+}
+
+.prod5 {
+  background-image: url(../img/product_5.jpg);
+}
+
+.prod6 {
+  background-image: url(../img/product_6.jpg);
+}
+
 article > span {
   position: absolute;
 }
@@ -40,7 +52,7 @@ article > span:first-child {
   right: 0;
 }
 
-article.prod2 > span:first-child {
+article.prod2 > span:first-child, article.prod5 > span:first-child {
   background-color: red;
 }
 
