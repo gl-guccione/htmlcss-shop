@@ -32,3 +32,26 @@ section > article {
 article > span {
   position: absolute;
 }
+
+article > span:first-child {
+  background-color: green;
+  margin: 8px;
+  padding: 5px;
+  right: 0;
+}
+
+article.prod2 > span:first-child {
+  background-color: red;
+}
+
+article > span:last-child {
+  display: none;
+  bottom: 0;
+  left: 50%;
+  color: red;
+  font-size: 30px;
+}
+
+article:hover > span:last-child{
+  display: block;
+}
